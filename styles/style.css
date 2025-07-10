@@ -6,7 +6,7 @@
     font-size: 16px;
     font-weight: 700;
     padding: 12px 36px 12px 36px;
-    margin-right: 150px;
+    
     margin-top: 25px;
     border: none;
     border-radius: 10px;
@@ -47,6 +47,10 @@ header{
     margin-top: 50px;
 }
 
+.nav-button{
+    margin-right: 150px;
+}
+
 /* --------------------------------------------- Hero Styles ------------------------------------------ */
 
 .hero-text{
@@ -58,7 +62,35 @@ header{
     margin-top: 120px;
 }
 
-.hero-button{
-    margin-right: -150px ;
+/* ------------------------------------------------Action Styles--------------------------------------------- */
+.action-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 116px;
+    margin-left: 140px;
+    margin-right: 150px;
+
+    display: flex;
+    gap: 250px;
 }
+
+
+.action-title{
+    
+    font-size: 42px;
+    font-weight: 700;
+
+}
+
+.action-description{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.action-img{
+    border-radius: 48px;
+}
+
+
 
