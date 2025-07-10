@@ -93,4 +93,52 @@ header{
 }
 
 
+/* ----------------------------------- Product User section------------------------------------- */
+
+.product-user-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 116px;
+    margin-left: 140px;
+    margin-right: 150px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 80px 50px 80px;
+}
+
+.product-user-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.product-number-container {
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+}
+
+.product-numbers{
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(78, 71, 255);;
+}
+
+.product-number-sub-main {
+    display: flex;
+    gap: 205px;
+    justify-content: center;
+}
+
+.product-number-sub-des{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+
+
+
+
+
 
