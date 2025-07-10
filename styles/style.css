@@ -1,5 +1,6 @@
-body{
+main{
     background-color: rgba(245, 248, 255);
+    box-shadow: 0px 0.5px 2px rgba(198, 198, 198, 0.5);
 }
 
 /* -------------------------------------------Shared Styles--------------------------------------------- */
@@ -67,7 +68,7 @@ header{
 /* ------------------------------------------------Action Styles--------------------------------------------- */
 .action-container{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 116px;
+    padding-top: 116px;
     margin-left: 140px;
     margin-right: 150px;
 
@@ -203,7 +204,7 @@ header{
     font-weight: 400;
 }
 
-/* ---------------------------------------------------- Contact Style ----------------------------------- */
+/* ------------------------------------------- Contact Style -------------------------------------------- */
 .contact-container{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 92px;
@@ -266,6 +267,43 @@ form textarea{
     padding: 19px 101px 19px 101px
 }
 
+/* -------------------------------------------- Footer Styles ------------------------------------------- */
 
+.footer-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 71px;
+    margin-left: 140px;
+    margin-right: 150px;
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-bottom: 104px;
+}
+
+.footer-logo{
+    color: rgb(78, 71, 255);
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.footer-description{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+    margin-bottom: 30px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    margin-right: 35px;
+}
+
+footer a:hover{
+    color: rgb(78, 71, 255);
+}
 
 
