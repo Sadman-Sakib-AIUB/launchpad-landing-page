@@ -1,0 +1,255 @@
+/* ------------------------- Media Query for Tablet (max-width: 992px) ------------------------- */
+@media screen and (max-width: 992px) {
+    /* General adjustments for tablets */
+    header{
+        margin-bottom: -50px;
+    }
+    .nav-logo {
+        margin-left: 50px;
+    }
+    .nav-button {
+        margin-right: 50px;
+    }
+    .hero-text {
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 55px;
+    }
+    .action-container {
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 100px;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .action-img {
+        width: 50%; /* Adjust image size */
+    }
+    .product-user-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .users-feedback {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .feedback-cards {
+        flex-direction: column; /* Stack cards on tablets */
+        align-items: center;
+    }
+    .feedback-card {
+        width: 80%; /* Make cards wider */
+        height: auto;
+    }
+    .focus-container {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 50px;
+    }
+    .contact-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contact-info {
+        gap: 50px;
+        align-items: center;
+    }
+    .cotact-title {
+        font-size: 70px;
+    }
+    .footer-container {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+
+/* ------------------------- Media Query for Mobile (max-width: 576px) ------------------------- */
+@media screen and (max-width: 576px) {
+    /* ------------------------------------------- Shared Styles ------------------------------------------- */
+    .btn-primary {
+        font-size: 16px; /* Keep it readable */
+        padding: 12px 24px;
+    }
+
+    /* ------------------------------------------- Navbar styles ------------------------------------------- */
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .nav-logo {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    .nav-button {
+        margin: 0;
+    }
+
+    /* --------------------------------------------- Hero Styles ------------------------------------------ */
+    .hero-text {
+        font-size: 36px;
+        margin: 60px 20px 0 20px;
+    }
+
+    /* ------------------------------------------------Action Styles--------------------------------------------- */
+    .action-container {
+        flex-direction: column;
+        margin: 50px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .action-text {
+        order: 2; /* Change order */
+    }
+
+    .action-img {
+        order: 1; /* Change order */
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .action-title {
+        font-size: 32px;
+    }
+    
+    .action-description {
+        font-size: 18px;
+    }
+
+
+    /* ----------------------------------- Product User section------------------------------------- */
+    .product-user-container {
+        margin: 50px 20px;
+        padding: 30px 20px;
+    }
+
+    .product-user-title {
+        font-size: 28px;
+    }
+
+    .product-stats-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .product-numbers {
+        font-size: 48px;
+    }
+
+    
+    
+    .product-number-sub-des {
+        font-size: 18px;
+    }
+
+    /* ----------------------------------------------Users Feedback Styles---------------------------------------- */
+    .users-feedback {
+        margin: 50px 20px;
+    }
+
+    .users-feedback-title {
+        font-size: 32px;
+    }
+
+    .feedback-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feedback-card {
+        width: 100%; /* Use full width */
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box; /* Important for padding and width */
+    }
+
+    /* ------------------------------------------- Focus Styles --------------------------------------------- */
+    .focus-container {
+        margin: 50px 20px;
+        padding: 40px 20px;
+    }
+
+    .focus-title {
+        font-size: 32px;
+    }
+
+    .focus-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------------------------- Contact Style -------------------------------------------- */
+    .contact-container {
+        margin: 50px 20px;
+        padding: 0;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .cotact-title {
+        font-size: 48px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    div form {
+        width: 100%;
+    }
+
+    div form input,
+    form textarea {
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding doesn't break layout */
+        padding-left: 20px;
+    }
+    
+    form textarea {
+        height: 150px; /* Adjust height */
+    }
+
+    .form-button {
+        width: 100%;
+        padding: 19px 20px;
+    }
+
+    /* -------------------------------------------- Footer Styles ------------------------------------------- */
+    .footer-container {
+        margin: 50px 0 0 0;
+        padding: 0 20px 40px 20px;
+    }
+
+    .footer-logo {
+        font-size: 48px;
+    }
+    
+    .footer-description {
+        font-size: 14px;
+    }
+
+    footer a {
+        display: block;
+        margin: 15px 0;
+        margin-left: 35px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+}
